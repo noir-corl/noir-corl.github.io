@@ -155,3 +155,37 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-gap: 10px;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Create square aspect ratio */
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.empty-cell {
+  width: 100%;
+  padding-bottom: 100%; /* Create empty square cells */
+  background-color: #f0f0f0; /* Background color for empty cells */
+}
