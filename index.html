@@ -200,14 +200,14 @@
         <h2 class="title is-3">Pipeline</h2>
         <div class="content has-text-left">
           <img src="./static/noir_images/method.png">
-          <div class="subtitle">NOIR System Overview</div>
+          <div class="subtitle has-text-centered">NOIR System Overview</div>
           <ul>
             <li><strong>SSVEP</strong> for object selection</li>
             <li><strong>Motor imagery (MI)</strong> for skill and parameter selection</li>
             <li><strong>Clench</strong> for confirmation</li>
           </ul>
           <img src="./static/noir_images/decoding.png">
-          <div class="subtitle">A modular pipeline for decoding human intention from EEG signals</div>
+          <div class="subtitle has-text-centered">A modular pipeline for decoding human intention from EEG signals</div>
         </div>
       </div>
     </div>
@@ -426,11 +426,11 @@
         <h2 class="title is-3">Robot Learning</h2>
         <div class="content has-text-left">
           <img src="./static/noir_images/os_learning.png">
-          <div class="subtitle">
+          <div class="subtitle has-text-centered">
             Retrieval-based few-shot object and skill selection model. The model learns a latent representation for observations. Given a new observation, it finds the most relevant experience in the memory and selects the corresponding skill and object.
           </div>
           <img src="./static/noir_images/param_learning.png">
-          <div class="subtitle">
+          <div class="subtitle has-text-centered">
             One-shot skill parameter learning algorithm, which finds a semantically corresponding point in the test image given a reference point in the training image. The feature visualization shows 3 of the 768 DINOv2 tokens used.
           </div>
         </div>
@@ -443,19 +443,19 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Results</h2>
         <div class="content has-text-left">
-          <img src="./static/noir_images/table1.png">
+          <img src="./static/noir_images/table1.png" height="100%">
           <div class="subtitle">
             NOIR system performance. Task horizon is the average number of primitive skills executed. # attempts indicate the average number of attempts until the first success (1 means success on the first attempt). Time indicates the task completion time in successful trials. Human time is the percentage of the total time spent by human users, this includes decision-making time and decoding time. With only a few attempts, all users can accomplish these challenging tasks.
           </div>
-          <img src="./static/noir_images/table2.png">
+          <img src="./static/noir_images/table2.png" height="60%">
           <div class="subtitle">
             Decoding accuracy at different stages of the experiment.
           </div>
-          <img src="./static/noir_images/table3.png">
+          <img src="./static/noir_images/table3.png" height="30%">
           <div class="subtitle">
             Object-skill learning results. Our method is highly accurate and robust.
           </div>
-          <img src="./static/noir_images/table4.png">
+          <img src="./static/noir_images/table4.png" height="30%">
           <div class="subtitle">
             One-shot parameter learning results. Our method is highly accurate and generalizes well.
           </div>
