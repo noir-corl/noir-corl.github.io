@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NOIR: Neural Signal Operated Intelligent Robot for Daily Activities</title>
+  <title>NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>-->
@@ -49,17 +49,42 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">NOIR: Neural Signal Operated Intelligent Robot for Daily Activities</h1>
+          <h1 class="title is-1 publication-title">NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a>Anonymous Submission CoRL 2023</a></span>
-          </div>
+              Conference on Robot Learning (CoRL) 2023</span>
+              <br>
+              <br>
+              <a href=""></a>
+              <a href="https://ai.stanford.edu/~zharu/">Ruohan Zhang</a></span>*<sup>1,4</sup>, 
+              <a href="https://www.linkedin.com/in/sharonleeyen">Sharon Lee</a>*<sup>1</sup>, 
+              <a href="https://mj-hwang.github.io/">Minjune Hwang</a>*<sup>1</sup>, 
+              <a href="https://misoshiruseijin.github.io/">Ayano Hiranaka</a>*<sup>2</sup>, 
+              <a href="https://www.chenwangjeremy.net/">Chen Wang</a><sup>1</sup>, 
+              <br> 
+              <a href="https://wensi-ai.github.io/">Wensi Ai</a><sup>1</sup>,   
+              <a href="https://www.linkedin.com/in/ryantjj">Jin Jie Ryan Tan</a><sup>1</sup>, 
+              <a href="https://www.linkedin.com/in/shreya-gupta-08">Shreya Gupta</a><sup>1</sup>, 
+              <a href="https://yih301.github.io/">Yilun Hao</a><sup>1</sup>, 
+              <a href="https://www.gabrael.io/">Gabrael Levine</a><sup>1</sup>, 
+              <br>             
+              <a href="https://ruohangao.github.io/">Ruohan Gao</a><sup>1</sup>, 
+              <a href="https://psychology.stanford.edu/people/anthony-norcia">Anthony Norcia</a><sup>3</sup>, 
+              <a href="https://profiles.stanford.edu/fei-fei-li">Li Fei-Fei</a><sup>1,4</sup>, 
+              <a href="https://jiajunwu.com/">Jiajun Wu</a><sup>1,4</sup> 
+              <br>
+              <sup>1</sup>Department of Computer Science, Stanford University <br>
+              <sup>2</sup>Department of Mechanical Engineering, Stanford University <br>
+              <sup>3</sup>Department of Psychology, Stanford University <br>
+              <sup>4</sup>Institute for Human-Centered AI (HAI), Stanford University  <br>
+              *Equally contributed
+            </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-<!--               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+              <span class="link-block">
+                <a href="https://openreview.net/pdf?id=eyykI3UIHa"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -67,7 +92,7 @@
                   <span>Paper</span>
                 </a>
               </span>
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://arxiv.org/abs/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -114,321 +139,313 @@
   </div>
 </section>
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/noir_videos/header_sukiyaki.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Robot Making Sukiyaki with Human Brain Signals (8x speed)
-      </h2>
-    </div>
-  </div>
-</section>
-
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Contributions. -->
+    
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <video id="teaser" autoplay muted loop playsinline height="100%">
+            <source src="./static/noir_videos/sukiyaki_header.mp4"
+                    type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+          </h2>
+        </div>
+      </div>
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Contributions</h2>
+        <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-left">
-          <ul>
-            <li>
-              A <strong>brain-robot interface</strong> system that enables humans to command robots through brain signals
-            </li>
-            <li>
-              A <strong>general-purpose</strong> neural signal decoding pipeline with electroencephalography (EEG) for human intentions
-            </li>
-            <li>
-              Integration with <strong>intelligent robots</strong> equipped with diverse skills and adaptation to human preferences
-            </li>
-            <li>
-              Success demonstrations in a diverse and challenging set of <strong>everyday household activities</strong>
-            </li>
-          </ul>
+        We present Neural Signal Operated Intelligent Robots (NOIR), a general-purpose, intelligent brain-robot interface system that enables humans to command robots to perform everyday activities through brain signals. Through this interface, humans communicate their intended objects of interest and actions to the robots using electroencephalography (EEG). Our novel system demonstrates success in an expansive array of 20 challenging, everyday household activities, including cooking, cleaning, personal care, and entertainment. The effectiveness of the system is improved by its synergistic integration of robot learning algorithms, allowing for NOIR to adapt to individual users and predict their intentions. Our work enhances the way humans interact with robots, replacing traditional channels of interaction with direct, neural communication.
         </div>
       </div>
     </div>
-    <!--/ Contributions. -->
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Motivation</h2>
+        <div class="content has-text-left">
+          Envisioned by scientists, engineers, and artists, brain-robot interface (BRI) stands out as a thrilling but challenging research topic. 
+          We want to leverage recent progress in machine learning, neuroscience, and robot learning to build novel BRI systems for:
+          <br>
+          <img src="./static/noir_images/motivation.png">
+        </div>
+      </div>
+    </div>
 
     <!-- Pipeline. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Pipeline</h2>
+        <h2 class="title is-3">The NOIR System</h2>
         <div class="content has-text-left">
+          NOIR has two components, a modular pipeline for decoding goals from human brain
+            signals, and a robotic system with a library of primitive skills. The robots possess the ability to learn
+            to predict human intended goals hence reducing the human effort required for decoding. 
+          <br><br>
           <img src="./static/noir_images/method.png">
-          <div class="subtitle has-text-centered">NOIR System Overview</div>
-          <ul>
-            <li><strong>SSVEP</strong> for object selection</li>
-            <li><strong>Motor imagery (MI)</strong> for skill and parameter selection</li>
-            <li><strong>Clench</strong> for confirmation</li>
-          </ul>
+          <br><br>
+          
+          <center><h3 class="title is-5">Decoding Human Intention from EEG</h3></center>
+           NOIR uses a modular pipeline for decoding human intended goals from EEG signals: (a) What object
+           to manipulate, decoded from SSVEP signals using CCA classifiers; (b) How to interact with the
+           object, decoded from MI signals using CSP+QDA algorithms; (c) Where to interact, decoded from
+           MI signals. A safety mechanism that captures muscle tension from jaw clench is used to confirm or
+           reject decoding results.<br><br>
           <img src="./static/noir_images/decoding.png">
-          <div class="subtitle has-text-centered">A modular pipeline for decoding human intention from EEG signals</div>
+          <br><br>
+          
+          <center><h3 class="title is-5">Robots with Parametrized Primitive Skills</h3></center>
+          Human intention can be mapped to 14 parametrized robot skills, such as Pick(x,y,z), Place(x,y,z), and Push(x,y,z,d). Humans find novel use and combine these skills to accomplish hard tasks.
+          <br><br>
+          <img src="./static/noir_images/pick.gif" width="250">
+          <img src="./static/noir_images/place.gif" width="250">
+          <img src="./static/noir_images/push.gif" width="250">
         </div>
       </div>
     </div>
-    <!--/ Pipeline. -->
-
-    <!-- Experiment Design. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Experiment Design</h2>
-        <h3 class="title is-4">Task Instantiation</h3>
-        <div class="content">
-          <img src="./static/noir_images/pull.png">
-          <div class="subtitle">
-            We experimented NOIR on 20 everyday household tasks, 16 of which (No.2 - No.17) are tabletop manipulations with Franka, and 4 of which (No.18-No.21) are mobile manipulation tasks with Tiago.
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--/ Experiment Design. -->
-
-    <!-- Task Videos. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Task Videos</h2>
-        <h3 class="title is-4">Tiago Tasks</h3>
-      </div>
-    </div>
-
-    <!---->
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <div class="content">
-          <video id="trash" controls playsinline height="100%">
-            <source src="./static/noir_videos/tiago_trash.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Trash Disposal
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <video id="plant" controls playsinline height="100%">
-            <source src="./static/noir_videos/tiago_plant.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Watering a Plant
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <video id="covid" controls playsinline height="100%">
-            <source src="./static/noir_videos/tiago_covid.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            COVID Care
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <video id="dog" controls playsinline height="100%">
-            <source src="./static/noir_videos/tiago_dog.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Feed/Pet a Dog
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!---->
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h3 class="title is-4">Franka Tasks</h3>
-      </div>
-    </div>
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <div class="content">
-          <video id="banana" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_banana.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Cutting a Banana
-          </div>
-        </div>
-        <div class="content">
-          <video id="table" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_table.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Setting a Table
-          </div>
-        </div>
-        <div class="content">
-          <video id="iron" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_iron.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Ironing Clothes
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <video id="pasta" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_pasta.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Cooking Pasta
-          </div>
-        </div>
-        <div class="content">
-          <video id="sandwich" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_sandwich.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Making Sandwiches
-          </div>
-        </div>
-        <div class="content">
-          <video id="toy" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_toy.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Keeping Toys
-          </div>
-        </div>
-        <div class="content">
-          <video id="hockey" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_hockey.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Playing Hockey
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <video id="ttt" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_tictactoe.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Playing Tic-tac-toe
-          </div>
-        </div>
-        <div class="content">
-          <video id="spill" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_spill.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Cleaning a Spill
-          </div>
-        </div>
-        <div class="content">
-          <video id="sweep" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_trash.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Sweeping Trash
-          </div>
-        </div>
-        <div class="content">
-          <video id="gift" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_gift.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Opening a Gift
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <video id="cheese" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_cheese.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Grating Cheese
-          </div>
-        </div>
-        <div class="content">
-          <video id="tea" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_tea.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Making Tea
-          </div>
-        </div>
-        <div class="content">
-          <video id="books" controls playsinline height="100%">
-            <source src="./static/noir_videos/franka_book.mp4" type="video/mp4">
-          </video>
-          <div class="subtitle">
-            Dusting and Arranging Books
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--/ Task Videos. -->
-
 
     <!-- Robot Learning. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Robot Learning</h2>
+        <h3 class="title is-5">Robot Learning for more Efficient BRI</h3>
         <div class="content has-text-left">
+          Decoding human intention is time-consuming and costly. The robot learns human object, skill, and parameter selections in a few-shot manner, so human effort and time can be reduced as they perform the same task in similar contexts.
+          <br><br>
+          Our retrieval-based few-shot object and skill selection model is shown below. It learns a latent representation for observations. Given a new observation, it finds the most relevant experience in the memory and selects the corresponding skill and object.      
+          <br><br>
           <img src="./static/noir_images/os_learning.png">
-          <div class="subtitle has-text-centered">
-            Retrieval-based few-shot object and skill selection model. The model learns a latent representation for observations. Given a new observation, it finds the most relevant experience in the memory and selects the corresponding skill and object.
-          </div>
+          <br><br>
+          Our one-shot skill parameter learning algorithm is shown below. It finds a semantically corresponding point in the test image given a reference point in the training image. The feature visualization shows 3 of the 768 DINOv2 tokens used.
+          <br><br>
           <img src="./static/noir_images/param_learning.png">
-          <div class="subtitle has-text-centered">
-            One-shot skill parameter learning algorithm, which finds a semantically corresponding point in the test image given a reference point in the training image. The feature visualization shows 3 of the 768 DINOv2 tokens used.
-          </div>
+        </div>
         </div>
       </div>
-    </div>
-    <!--/ Robot Learning. -->
 
-    <!-- Results. -->
+    <!--/ Pipeline. -->
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Results</h2>
-        <div class="content has-text-centered">
-          <img src="./static/noir_images/table1.png" width="100%">
-          <div class="subtitle">
-            NOIR system performance. Task horizon is the average number of primitive skills executed. # attempts indicate the average number of attempts until the first success (1 means success on the first attempt). Time indicates the task completion time in successful trials. Human time is the percentage of the total time spent by human users, this includes decision-making time and decoding time. With only a few attempts, all users can accomplish these challenging tasks.
-          </div>
-          <img src="./static/noir_images/table2.png" width="65%">
-          <div class="subtitle">
-            Decoding accuracy at different stages of the experiment.
-          </div>
-          <img src="./static/noir_images/table3.png" width="40%">
-          <div class="subtitle">
-            Object-skill learning results. Our method is highly accurate and robust.
-          </div>
-          <img src="./static/noir_images/table4.png" width="40%">
-          <div class="subtitle">
-            One-shot parameter learning results. Our method is highly accurate and generalizes well.
-          </div>
+        <h2 class="title is-3">Experiments and Results</h2>
+        <div class="content has-text-left">
+        With NOIR, 3 human participants (2M1F) accomplished 20 long-horizon tasks (4-15 skills) everyday activities. 
+        16 activities (No.2 - No.17) are tabletop manipulation tasks with Franka, and 4 (No.18 - No.21) are mobile manipulation tasks with Tiago. The tasks include 8 meal preparation tasks,
+        6 cleaning tasks, 3 personal care tasks, and 3 entertainment tasks. <br><br>
+        <img src="./static/noir_images/pull.png">
         </div>
       </div>
     </div>
-    <!--/ Results. -->
+
+    
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+      <h3 class="title is-5">Task Videos (8x speed, decoding period omitted)</h3>
+
+    </div>
+    </div>
+
+  <div class="columns is-centered has-text-centered">
+      <div class="content">
+        <video width="300" height="240" autoplay loop muted>
+          <source src="./static/noir_videos/franka_spill.mp4" type="video/mp4">
+        </video>
+        <div class="subtitle">WipeSpill</div>
+      </div>
+      &nbsp;
+
+      <div class="content">
+        <video width="300" height="240" autoplay loop muted>
+          <source src="./static/noir_videos/franka_toy.mp4" type="video/mp4">
+        </video>
+        <div class="subtitle">CollectToy</div>
+      </div>
+      &nbsp;
+
+      <div class="content">
+        <video width="300" height="240" autoplay loop muted>
+          <source src="./static/noir_videos/franka_trash.mp4" type="video/mp4">
+        </video>
+        <div class="subtitle">SweepTrash</div>
+      </div>
+  </div>
+  
+
+  <div class="columns is-centered has-text-centered">
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_book.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">CleanBook</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_iron.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">IronCloth</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_basket.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">OpenBasket</div>
+    </div>
+  </div>
+
+
+  <div class="columns is-centered has-text-centered">
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_tea.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">PourTea</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_table.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">SetTable</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_cheese.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">GrateCheese</div>
+    </div>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_banana.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">CutBanana</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_pasta.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">CookPasta</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_sandwich.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">Sandwich</div>
+    </div>
+  </div>
+
+
+  <div class="columns is-centered has-text-centered">
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_hockey.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">Hockey</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_gift.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">OpenGift</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="300" height="240" autoplay loop muted>
+        <source src="./static/noir_videos/franka_tictactoe.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">TicTacToe</div>
+    </div>
+  </div>
+
+
+  <div class="columns is-centered has-text-centered">
+    <div class="content">
+      <video width="450" height="300" autoplay loop muted>
+        <source src="./static/noir_videos/tiago_trash.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">TrashDisposal</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="450" height="300" autoplay loop muted>
+        <source src="./static/noir_videos/tiago_covid.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">CovidCare</div>
+    </div>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="content">
+      <video width="455" height="300" autoplay loop muted>
+        <source src="./static/noir_videos/tiago_plant.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">WaterPlant</div>
+    </div>
+    &nbsp;
+
+    <div class="content">
+      <video width="450" height="300" autoplay loop muted>
+        <source src="./static/noir_videos/tiago_dog.mp4" type="video/mp4">
+      </video>
+      <div class="subtitle">PetDog (1x)</div>
+    </div>
+  </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-5">Quantative Results</h3>
+        <div class="content has-text-centered">
+          <div class="content has-text-left">
+            On average, each task requires 1.8 attempts to success, and task completion time is 20.3 minutes.
+            Task horizon is the average number of primitive skills executed. # attempts indicate the average number of attempts until the first success (1 means success on the first
+            attempt). Time indicates the task completion time in successful trials. Human time is the percentage
+            of the total time spent by human users, this includes decision-making time and decoding time.
+            <img src="./static/noir_images/table1.png" width="900">
+          </div>
+
+          <div class="content has-text-left">
+          Decoding accuracy at different stages of the experiment. Decoding time and accuracy, like in almost all BRI research, are the key challenges.
+          <img src="./static/noir_images/table2.png" width="700">
+
+          </div>    
+
+          <div class="content has-text-left">
+          With robot learning algorithms, object and skill selection learning reduces the decoding time by 60%, parameter learning decreases cursor movement distance by 41%.
+          <br><br>
+          <center><img src="./static/noir_images/disttime3.png" width="500"></center>
+
+        </div>   
+
+          
+
+
+        </div>
+      </div>
+    </div>
 
     <!-- FAQ. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">FAQ</h2>
+        <h2 class="title is-3">FAQs about BRI and NOIR</h2>
         <div class="content has-text-left">
           <p><strong>
             Is EEG safe to use? Are there any potential risks or side effects of using the EEG for extended periods of time? 
@@ -483,22 +500,6 @@
     </div>
     <!--/ FAQ. -->
 
-
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            placeholder
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
-
-  </div>
 </section>
 
 
@@ -506,12 +507,13 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <!-- <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre> -->
+    <pre><code>
+@inproceedings{lee2023noir,
+  title={NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities},
+  author={Zhang, Ruohan and Lee, Sharon and Hwang, Minjune and Hiranaka, Ayano and Wang, Chen and Ai, Wensi and Tan, Jin Jie Ryan and Gupta, Shreya and Hao, Yilun and Levine, Gabrael and Gao, Ruohan and Norcia, Anthony and Fei-Fei, Li and Wu, Jiajun},
+  booktitle={7th Annual Conference on Robot Learning},
+  year={2023}
+}</code></pre>
   </div>
 </section>
 
